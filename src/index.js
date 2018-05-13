@@ -1,5 +1,3 @@
-let test = "TEST!! ES6";
 
-let test2 = "EG2";
+import {Fighter} from "./Fighter";
 
-console.log(test);
