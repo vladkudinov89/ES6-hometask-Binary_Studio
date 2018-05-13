@@ -1,16 +1,12 @@
-import {Fighter} from "./Fighter";
+import { Fighter } from "./Fighter.js";
 
-export class ImprovedFighter extends Fighter{
+export class ImprovedFighter extends Fighter {
+  constructor(name, health, power, doubleDamage = 0) {
+    super(name, health, power);
+  }
 
-
-    constructor(name, health, power) {
-        super(name, health, power);
-    }
-
-
-    doubleHit(enemy, point) {
-        let doubleDamage = 0;
-        doubleDamage = 2 * point;
-        this.hit(enemy, doubleDamage);
-    }
+  doubleHit(enemy, point) {
+    this.doubleDamage = 2 * point;
+    this.hit(enemy, this.doubleDamage);
+  }
 }

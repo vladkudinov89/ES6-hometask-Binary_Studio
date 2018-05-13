@@ -1,4 +1,4 @@
-node_modules
-npm-debug.log*
-.npm
 .idea
+node_modules
+.cache
+dist
