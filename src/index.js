@@ -1,3 +1,1 @@
-let test = "TEST!! ES6";
-
-console.log(test);
+import {Fighter} from "./Fighter";

@@ -1,5 +1,3 @@
 "use strict";
 
-var test = "TEST!! ES6";
-
-console.log(test);
+var _Fighter = require("./Fighter");
